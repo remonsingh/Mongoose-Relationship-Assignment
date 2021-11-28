@@ -27,3 +27,5 @@ const bookSchema = new mongoose.Schema({
 const book = mongoose.model("books", bookSchema);
 
 module.exports = book;
+
+//post on postman---> {"Book":"Simran Mandil", "author_id": "61a3b3141f46246743e55b78", "section_id": "61a3bc0b1f46246743e55bc2", "checked": "true"}
